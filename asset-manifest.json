@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Mini-Digital-Clock/static/css/main.683f41f4.chunk.css",
+    "main.js": "/Mini-Digital-Clock/static/js/main.13cc32b5.chunk.js",
+    "main.js.map": "/Mini-Digital-Clock/static/js/main.13cc32b5.chunk.js.map",
+    "runtime-main.js": "/Mini-Digital-Clock/static/js/runtime-main.ef8aca2b.js",
+    "runtime-main.js.map": "/Mini-Digital-Clock/static/js/runtime-main.ef8aca2b.js.map",
+    "static/js/2.02d57afb.chunk.js": "/Mini-Digital-Clock/static/js/2.02d57afb.chunk.js",
+    "static/js/2.02d57afb.chunk.js.map": "/Mini-Digital-Clock/static/js/2.02d57afb.chunk.js.map",
+    "index.html": "/Mini-Digital-Clock/index.html",
+    "precache-manifest.f41041071b5ec1f4b48c744669041091.js": "/Mini-Digital-Clock/precache-manifest.f41041071b5ec1f4b48c744669041091.js",
+    "service-worker.js": "/Mini-Digital-Clock/service-worker.js",
+    "static/css/main.683f41f4.chunk.css.map": "/Mini-Digital-Clock/static/css/main.683f41f4.chunk.css.map",
+    "static/js/2.02d57afb.chunk.js.LICENSE.txt": "/Mini-Digital-Clock/static/js/2.02d57afb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef8aca2b.js",
+    "static/js/2.02d57afb.chunk.js",
+    "static/css/main.683f41f4.chunk.css",
+    "static/js/main.13cc32b5.chunk.js"
+  ]
+}
