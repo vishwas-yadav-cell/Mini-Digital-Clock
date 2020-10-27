@@ -1,22 +1,21 @@
-import React,{useState} from 'react';
-import ValueGiver from './components/valueGiver';
+import React, { useState } from 'react';
+
 
 const App = () => {
-    const [actVal,setActVal] = useState(<h1>Let's press the button to play{'🙂'}</h1>);
+    const timeGiver = () => {
+        setInterval(() => {
+            setCurrTime(new Date().toLocaleTimeString());
+        }, 1000);
+    }
+
+    const [currTime, setCurrTime] = useState(timeGiver());
 
     return (
         <>
-            <h1 className="heading_style">{'🎰'} Welcome to{" "}
-                <span style={{ fontWeight: 'bold' }}>Slot machine game
-            </span>
-                {' 🎰'}
-            </h1>
-
-            <div className="main_div">
-                {actVal}
+            <div>
+                <h1>{currTime}</h1>
+                {/* <button onClick={() => { setCurrTime(new Date().toLocaleTimeString()) }}>{'⌚'} GET TIME {'⌚'}</button> */}
             </div>
-
-            <button onClick={()=>{setActVal(ValueGiver)}}>Click me to play!</button>
         </>
     );
 }
